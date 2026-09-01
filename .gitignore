@@ -1,0 +1,20 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# JavaScript dependencies and diagnostics
+node_modules/
+npm-debug.log*
+
+# Python virtual environments, caches, and coverage
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local editor and OS files
+.vscode/
+.DS_Store
